@@ -1,0 +1,27 @@
+name: pose_engine_example
+description: >
+  Standalone test harness for the pose_engine package — the mobile
+  equivalent of hunterS-eye's example_test.py. Opens the front camera,
+  runs one hardcoded detector, and overlays the rep count + feedback text.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.24.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2
+  google_mlkit_pose_detection: ^0.12.0
+  pose_engine:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
