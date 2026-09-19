@@ -1,0 +1,11 @@
+This folder contains all the exercise detection logic
+
+├── lib/
+│   ├── pose_engine.dart              # barrel export
+│   ├── exercise_detector.dart
+│   ├── calibration_detector.dart
+│   ├── pose_detector_service.dart
+│   ├── exercise_database.dart        # split out of constants.dart
+│   ├── models/calibration_baseline.dart
+│   ├── utils/angle_calculator.dart, landmark_smoother.dart
+│   └── detectors/                    # all 12, unmodified logic
