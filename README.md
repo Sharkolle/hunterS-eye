@@ -1,4 +1,4 @@
-# 🎮 Huntery's Eye (Project: Shadow)
+# 🎮 Hunter's Eye (Project: Shadow)
 
 > **"Arise."** Stop working out in the dark. Turn your room into a dungeon and your sweat into XP.
 
